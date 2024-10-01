@@ -1808,10 +1808,12 @@ body.overlay .background-overlay
 	background: #FFF;
 	text-align: center;
 	padding-bottom: 30px;
+
 }
 .services-list li.background
 {
-	background-color: transparent;
+	background-color: rgb(233,80,0)
+	;
 }
 .services-list.horizontal-carousel li
 {
@@ -2755,7 +2757,7 @@ body .background-6
 }
 .header-background.header-background-4
 {
-	background-image: url('../images/samples/1920x400/placeholder.jpg');
+	background-image: url('../images/backgrounds/images/pexels-falling4utah-2724749.jpg');
 }
 .header-background.header-background-5
 {
@@ -2779,7 +2781,7 @@ body .background-6
 }
 .parallax-3
 {
-	background-image: url('../images/samples/1920x1200/placeholder.jpg');
+	background-image: url('../images/backgrounds/images/pexels-rdne-7516846.jpg');
 }
 .parallax-4
 {
@@ -2809,8 +2811,6 @@ body .background-6
 	height: 100%;
 	background: rgba(60, 63, 66, 0.4);
 	z-index: 1;
-	
-
 }
 .background.overlay>*,
 .parallax.overlay>*
@@ -5161,3 +5161,6 @@ body.lock-position
 .revolution-slider h2, .revolution-slider h4, .revolution-slider h2 strong, .revolution-slider .more.simple, .revolution-slider p.description{
 	text-shadow: 2px 2px #e95000;
 }
+
+.background.overlay::after
+{background:#e95000;}
